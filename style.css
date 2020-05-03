@@ -1,0 +1,38 @@
+body{
+    background-image: url("Images/49075.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center ;
+    color: rgb(255, 255, 255);
+}
+a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color: white;
+  }
+  ul {
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    text-align: right;
+     }
+     li {
+      display: inline-flex;
+      float: center;
+      font-size: larger;
+      padding: 25px;
+    }
+  li a:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .active {
+    color: white;
+  }
