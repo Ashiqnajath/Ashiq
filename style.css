@@ -1,38 +1,32 @@
-body{
-    background-image: url("Images/49075.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+  background: url("Images/162926.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
 }
-h1{
-    text-align: center ;
-    color: rgb(255, 255, 255);
+.dropdown-menu{
+  background-color: #4CAF50;
 }
-a {
-      display: block;
-      padding: 8px;
-      text-decoration: none;
-      color: white;
-  }
-  ul {
-    list-style-type: none;
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    text-align: right;
-     }
-     li {
-      display: inline-flex;
-      float: center;
-      font-size: larger;
-      padding: 25px;
-    }
-  li a:hover {
-    background-color: #4CAF50;
-    color: white;
-  }
-  .active {
-    color: white;
-  }
+nav a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+#ashi{
+  padding-left: 50vh;
+}
+li {
+  color: #4CAF50;
+}
+#nic{
+  color: white;
+}
+.nav-link{
+  color: #4CAF50;
+}
