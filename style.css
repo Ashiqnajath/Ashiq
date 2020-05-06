@@ -1,32 +1,124 @@
+
+html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Dosis', sans-serif;
+    background-color: #007cc0;
+}
+a.navbar-brand {
+  font-size: 2.5em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+  color: #fff;
+  text-transform: uppercase;
   margin: 0;
-  padding: 0;
-  /* background-color: white; */
-  background: url("Images/calm.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  color: white;
 }
-.dropdown-menu{
-  background-color: #4CAF50;
+
+a.navbar-brand span {
+  display: block;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+  margin-top: -10px;
+
 }
-nav a:hover {
-  background-color: grey;
-  color: white;
-  border-radius: 10px;
+
+li.nav-item {
+  padding: 0 20px;
 }
-#ashi{
-  padding-left: 50vh;
+
+.logo-wthree i {
+  color: #fff;
+  text-shadow: none;
+  font-size: .9em;
 }
-li {
-  color: #4CAF50;
+
+.bg-light {
+  background-color: transparent !important;
 }
-#nic{
-  color: white;
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.nav-link{
-  color: #4CAF50;
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fbb034;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #fbb034;
+  text-decoration: line-through;
+}
+footer {
+  margin: 0 auto;
+  width: 90%;
+  border-top: 1px ridge rgba(8, 93, 140, 0.48);
+}
+
+.inner-page-footer {
+  background: #007cc0;
+  padding: 2em 0;
+  width: 100%;
+  border-top: 1px ridge rgba(8, 93, 140, 0.48);
+}
+
+.social_media_w3layouts {
+  margin: 2em 0 2em 0;
+}
+
+.social_media_w3layouts ul li {
+  margin: 0 0.5em;
+  font-size: 1.2em;
+}
+
+.agileinfo_share {
+  margin-right: 1em !important;
+  color: #fff;
+}
+
+ul.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.social-icons li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  line-height: 34px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+ul.social-icons li a:hover {
+    color: #ffc107;
+}
+p.copy-right-w3ls {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+p.copy-right-w3ls a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+p.copy-right-w3ls a:hover {
+  color: #fff;
 }
