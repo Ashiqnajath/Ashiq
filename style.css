@@ -122,3 +122,15 @@ p.copy-right-w3ls a {
 p.copy-right-w3ls a:hover {
   color: #fff;
 }
+img{
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+}
+.size{
+  text-align: center;
+  color: #ffc107;
+}
+#green{
+  color: #ffc107;
+}
