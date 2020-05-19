@@ -55,6 +55,24 @@ li.nav-item {
   color: #fbb034;
   text-decoration: line-through;
 }
+.dropdown-menu{
+  border: none;
+}
+.dropdown-menu .dropdown-item{
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 16px;
+  
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus{
+  color: #fbb034;
+  text-decoration: line-through;
+}
+}
 footer {
   margin: 0 auto;
   width: 90%;
@@ -66,15 +84,6 @@ footer {
   padding: 2em 0;
   width: 100%;
   border-top: 1px ridge rgba(8, 93, 140, 0.48);
-}
-
-.social_media_w3layouts {
-  margin: 2em 0 2em 0;
-}
-
-.social_media_w3layouts ul li {
-  margin: 0 0.5em;
-  font-size: 1.2em;
 }
 
 .agileinfo_share {
@@ -104,23 +113,22 @@ ul.social-icons li a {
 ul.social-icons li a:hover {
     color: #ffc107;
 }
-p.copy-right-w3ls {
+p.copy-right {
   color: #fff;
   letter-spacing: 2px;
 }
 
-p.copy-right-w3ls a {
+p.copy-right a {
   color: #ffc107;
   text-decoration: none;
 }
 
-p.copy-right-w3ls a:hover {
-  color: #fff;
+p.copy-right a:hover {
+  color: #01ff41;
 }
 img{
   height: 250px;
   width: 250px;
-  padding: 10px;
 }
 .size{
   text-align: center;
