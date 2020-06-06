@@ -142,9 +142,6 @@ img{
   color: #ffc107;
   text-align: center;
 }
-.white{
-  color: white;
-}
 #mp{
   margin: 10%;
   width: 550px;
@@ -152,4 +149,7 @@ img{
 }
 p{
   padding: 10px;
+}
+#myimg{
+  width: 100%;
 }
