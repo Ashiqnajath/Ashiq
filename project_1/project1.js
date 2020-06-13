@@ -9,3 +9,7 @@ menuBtn.onclick = function(){
         sideNav.style.right = "-250px"
     }
 }
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 800,
+	speedAsDuration: true
+});

@@ -88,9 +88,9 @@ nav ul li a{
     color: #fff;
 }
 #menuBtn{
-    width: 50px;
+    width: 45px;
     position: fixed;
-    right: 65px;
+    right: 40px;
     top: 35px;
     z-index: 2;
     cursor: pointer;
@@ -240,4 +240,148 @@ form input{
 
 #footer{
     padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+    
+}
+.footer-right-col{
+    flex-basis: 35%;
+
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.link-title small{
+    font-size: 13px;
+    counter-reset: #777;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 60%;
+}
+footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
+}
+small a{
+    text-decoration: none;
+    color: #f80c43;
+}
+
+     /* social icon */
+
+
+.social-icon{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icon img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 770px){
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #sideNav{
+        width: 150px;
+        right: -150px;
+    }
+    #menuBtn{
+        width: 30px;
+        right: 10px;
+    }
+    .common-btn{
+        padding: 10px 16px;
+    }
+    .social-icon img{
+        width: 14px;
+        margin: 15 auto ;
+    }
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .course-left-col{
+        flex-basis: 100%;
+    }
+    .course-right-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+    }
+    .contact-right-col{
+        margin-top: 50px;
+    }
+    .footer-left-col .footer-right-col{
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
 }
