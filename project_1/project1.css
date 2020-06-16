@@ -313,7 +313,9 @@ small a{
     margin: 0 auto 20px;
     cursor: pointer;
 }
-
+.down-btn{
+    margin-top: 10px;
+}
 
 
 
@@ -383,5 +385,11 @@ small a{
     .link-title{
         flex-basis: 50%;
         margin-bottom: 30px;
+    }
+    .Template-download{
+        margin-top: 15px;
+    }
+    .down-text{
+        font-size: 14px;
     }
 }
