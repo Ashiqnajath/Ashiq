@@ -134,10 +134,10 @@ img{
   text-align: center;
   color: #ffc107;
 }
-/* colors */
-#green{
-  color: #01ff41;
+.letter-spacing{
+  letter-spacing: 1px;
 }
+/* colors */
 .orange{
   color: #ffc107;
   text-align: center;
@@ -156,6 +156,8 @@ p{
 .mgreen{
   color: #01ff41;
 }
+
+/* about */
 
 /*--/contact--*/
 
