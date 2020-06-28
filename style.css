@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-size: 100%;
     font-family: 'Dosis', sans-serif;
-    background-color: #007cc0;
+    background-color: #012c41;
 }
 a.navbar-brand {
   font-size: 2.5em;
@@ -137,11 +137,28 @@ img{
 .letter-spacing{
   letter-spacing: 1px;
 }
+
 /* colors */
+
 .orange{
   color: #ffc107;
   text-align: center;
 }
+.mgreen{
+  color: #01ff41;
+}
+.bgcl{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+/* colors */
+
+/* about */
+
+#about{
+  padding-top: 10vh;
+}
+
 #mp{
   margin: 10%;
   width: 550px;
@@ -153,13 +170,15 @@ p{
 #myimg{
   width: 100%;
 }
-.mgreen{
-  color: #01ff41;
-}
 
-/* about */
+
+
 
 /* my work */
+
+#works{
+  background-color: #012c41;
+}
 
 .box16 {
   text-align: center;
@@ -198,13 +217,14 @@ p{
 }
 
 .box16 .box-content {
-  padding: 20px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   bottom: 0;
   z-index: 1
 }
 
 .box16 .title-wthree {
+  
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -213,7 +233,7 @@ p{
 
 .box16 .post {
   display: block;
-  padding: 8px 0;
+  padding: 2px 0;
   font-size: 15px
 }
 
@@ -231,7 +251,7 @@ p{
 
 .box16 .social {
   list-style: none;
-  padding: 0 0 5px;
+  padding: 0 0 2px;
   margin: 40px 0 25px;
   opacity: 0;
   position: relative;
@@ -289,10 +309,19 @@ p{
   }
 }
 
+@media only screen and (max-width:990px) {
+  .social {
+    
+  }
+}
 
 /* my work */
 
 /*--/contact--*/
+
+#contact{
+  padding-top: 10vh;
+}
 
 .main_grid_contact {
   background: #f7f7f7;
