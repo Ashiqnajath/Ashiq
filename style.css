@@ -147,6 +147,10 @@ img{
 .mgreen{
   color: #01ff41;
 }
+.bgcl{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
 /* colors */
 .bgimg{
   background-image: url("Images/img.jpg");
@@ -199,7 +203,7 @@ p{
   transition: all .5s ease 0s
 }
 
-.box16 ,
+.box16 .post,
 .box16 .title-wthree {
   transform: translateY(145px);
   transition: all .4s cubic-bezier(.13, .62, .81, .91) 0s
@@ -229,7 +233,7 @@ p{
   margin: 0 0 10px;
 }
 
-.box16  {
+.box16 .post {
   display: block;
   padding: 2px 0;
   font-size: 15px
@@ -413,3 +417,15 @@ p{
   text-transform: uppercase;
 }
 /*--//contact--*/
+
+@media(max-width:900px){
+	h2.title-wthree {
+      font-size: 2.4em;
+    }
+}
+@media(max-width:800px){
+	.box16 .title-wthree {
+        font-size: 15px;
+        margin: 0px 0 5px;
+    }
+}
