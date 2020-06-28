@@ -280,18 +280,10 @@ hr{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-logo img{
-    width: 60%;
-}
-footer-logo button{
-    padding: 12px 38px;
-    margin-top: 20px;
-    font-size: 10px;
-}
 .copyright-text, .footer-logo{
     flex-basis: 40%;
 }
-small a{
+strong a{
     text-decoration: none;
     color: #f80c43;
 }
