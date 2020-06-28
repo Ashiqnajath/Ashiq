@@ -152,7 +152,9 @@ img{
 }
 
 /* colors */
-
+.bgimg{
+  background-image: url("Images/img.jpg");
+}
 /* about */
 
 #about{
