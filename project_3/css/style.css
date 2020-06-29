@@ -1,0 +1,115 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    margin: 0;
+    padding: 0;
+}
+
+.header-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background: transparent;
+    padding: 21px 4px 0 24px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all ease 1s;
+}
+hr{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+body{
+    font-family: 'Oswald',sans-serif;
+    height: 2000px;
+    background: #333;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+}
+
+.header-1.fixedbar{
+    position: fixed !important;
+    background: deepskyblue;
+    padding: 10px 40px 0 24px;
+}
+
+.logo{
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    text-align: left;
+    padding: 0 0 25px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mainmenu{
+    position: relative;
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 0.8;
+    padding: 25px 20px 18px;
+    position: relative;
+}
+
+.mainmenu ul li a{
+    display: block;
+    color: white;
+    font-size: 17px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    letter-spacing: 1px;
+}
+
+.mainmenu ul li a:after{
+    position: absolute;
+    width: 0;
+    height: 1px;
+    content: '';
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.mainmenu ul li a:hover{
+    color: white;
+}
+
+.mainmenu ul li a:hover:after{
+    width: 100%;
+}
+
+.navigator{
+    position: relative;
+    padding: 2px 0 12px;
+}
+
+.navigator a{
+    display: inline-block;
+    color: white;
+    line-height: 0.8;
+    font-size: 25px;
+    margin: 0;
+}
+
+.navigator a.search{
+    margin: 16px;
+}
