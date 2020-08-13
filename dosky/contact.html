@@ -15,6 +15,7 @@ Author URL: http://w3layouts.com
   <!-- Template CSS -->
   <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Template CSS -->
   <link rel = "icon" type = "image/png" href = "assets/images/logo.png">
   
@@ -113,17 +114,19 @@ Author URL: http://w3layouts.com
         <div class="container py-lg-5">
           <div class="form">
             <h3 class="hny-title two text-center">Your Feed back.</h3>
-            <form action="#"class="mt-md-5 mt-4" method="post">
+
+            <form id="submit-form" action="" class="mt-md-5 mt-4">
               <div class="input-grids">
-                <input type="text" name="w3lName" id="w3lName" placeholder="Name">
-                <input type="email" name="w3lSender" id="w3lSender" placeholder="Email" required="" />
-                <input type="subject" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
+                <input type="text" name="Name" id="Name" placeholder="Name">
+                <input type="email" name="Sender" id="Sender" placeholder="Email" required="" />
+                <input type="subject" name="Subject" id="Subject" placeholder="Subject" required="">
               </div>
               <div class="input-textarea">
-                <textarea name="w3lMessage" id="w3lMessage" placeholder="Message" required=""></textarea>
+                <textarea name="Message" id="Message" placeholder="Message" required=""></textarea>
               </div>
               <button type="submit" class="btn">Send</button>
             </form>
+
           </div>
         </div>
       </div>
@@ -136,7 +139,25 @@ Author URL: http://w3layouts.com
      <p class="copy-right mb-5 pt-0 text-center"> © 2020  All rights reserved | Design by <br><b><a href="https://ashiqnajath.in"><img src="assets/images/logo1.png" alt="logo"  style="height:40px;"/> dosky Designs</b></p></a>
   </div>
   </footer>
-  
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbzkOJ3UBcVM3Tbb3JxhUR2r939ZLiFGg0WJ1hUhN40wGY9CdF8A/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
   </body>
        <!--Start of Tawk.to Script-->
 <script type="text/javascript">
