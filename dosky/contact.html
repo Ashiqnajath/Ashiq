@@ -9,7 +9,7 @@ Author URL: http://w3layouts.com
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Dosky online store</title>
+  <title>test</title>
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <!-- Template CSS -->
@@ -139,52 +139,31 @@ Author URL: http://w3layouts.com
      <p class="copy-right mb-5 pt-0 text-center"> © 2020  All rights reserved | Design by <br><b><a href="https://ashiqnajath.in"><img src="assets/images/logo1.png" alt="logo"  style="height:40px;"/> dosky Designs</b></p></a>
   </div>
   </footer>
-  <script>
-    $("#submit-form").submit((e)=>{
-        e.preventDefault()
-        $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbzkOJ3UBcVM3Tbb3JxhUR2r939ZLiFGg0WJ1hUhN40wGY9CdF8A/exec",
-            data:$("#submit-form").serialize(),
-            method:"post",
-            success:function (response){
-                alert("Form submitted successfully")
-                window.location.reload()
-                //window.location.href="https://google.com"
-            },
-            error:function (err){
-                alert("Something Error")
-
-            }
-        })
-    })
-</script>
-  </body>
        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/5f311038ed9d9d2627098aa9/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
+       <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzkOJ3UBcVM3Tbb3JxhUR2r939ZLiFGg0WJ1hUhN40wGY9CdF8A/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+  </body>
+
+
   </html>
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-
-<!-- disable body scroll which navbar is in active -->
-
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
-<script src="assets/js/bootstrap.min.js"></script>
 
